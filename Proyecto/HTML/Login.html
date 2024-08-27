@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <title>Portal de Inicio</title>
+</head>
+<body>
+    <div class="root">
+        <header></header>
+        <main class="">
+            <div class="container">
+                <form action="" id="form-ingreso">
+                    <div class="logo">
+                        <img src="/Img/Agregar un título (4).png" alt="Logo">
+                    </div>
+                    <div class="regis">
+                        
+                        <div id="cajaInputs">
+                            <div id="cajaUser">
+                                <p>
+                                    <label for="user"><strong>Usuario</strong></label>
+                                    <input type="text" name="user" id="user" placeholder="Usuario" required />
+                                </p>
+                            </div>
+                            <div id="cajaPass">
+                                <p>
+                                    <label for="pass"><strong>Contraseña</strong></label>
+                                    <input type="password" name="pass" id="pass" placeholder="Contraseña" required/>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="dashed-line"></div>
+                        <div id="cajaBotones">
+                            <input
+                                name="button"
+                                type="button"
+                                class="otros"
+                                id="btn-recordar"
+                                onclick="javascript: fncRecordar();"
+                                value="Recordar Contraseña"
+                            />
+                            <input
+                                name="recordarUsuario"
+                                type="button"
+                                id="recordarUsuario"
+                                onclick="javascript: irRecordarUsuario ();"
+                                value="Recordar Usuario"
+                                class="otros"
+                            />
+                            <input
+                                id="btn-login"
+                                type="button"
+                                value="Ingresar"
+                                
+                            />
+                        </div>
+                        <div class="dashed-line"></div>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="/JS/Validacion.js"></script>
+</body>
+</html>

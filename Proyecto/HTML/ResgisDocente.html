@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/regisEstudiante.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="/Img/Agregar un título (4).png" alt="Logo" />
+            </div>
+        </header>
+        <form action="#">
+            <div class="img-estu">
+                <img src="/Img/ui_user_profile_avatar_person_icon_208734.png" alt="avatar" id="img">
+                <input type="file" id="imagen" name="imagen" accept="image/*">
+                <label for="imagen">Escoger Avatar</label>
+            </div>
+            <h2>Información Personal</h2>
+            <div class="form-perso">
+                <div class="nombre cnt">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="nombre" name="Nombre" required placeholder="Nombre">
+                </div>
+                <div class="mail cnt">
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="email" required placeholder="Email.com">
+                </div>
+                <div class="tele cnt">
+                    <label for="Numero">Número Celular</label>
+                    <input type="tel" name="telefono" id="telefono" required placeholder="Teléfono">
+                </div>
+                <div class="Id cnt">
+                    <label for="Numero">Numero de Identificacion</label>
+                    <input type="tel" name="Id" id="id" required placeholder="Numero de identificacion">
+                </div>
+            </div>
+            <div class="button-container">
+                <button type="submit">Registrar</button>
+            </div>
+        </form>
+    </div>
+    <script src="/JS/Utilidades.js"></script>
+</body>
+</html>
